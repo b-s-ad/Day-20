@@ -4,11 +4,11 @@ using System.Text;
 using System.Text.RegularExpressions;
 
 
-namespace Regex_UserReg  // UC 3
+namespace Regex_UserReg  // UC 4
 {
-    class Patterns // Regex UC 3    
+    class Patterns // Regex UC 4    
     {
-        public static string Regexx = "^[a-z][-a-z0-9._]+@([-a-z0-9{2,2}]+[.])+[a-z]{2,2}$";
+        public static string Regexx = "^[9][1][ ][1-9][0-9]{9}$";
 
         public bool regex(string regex)
         {
