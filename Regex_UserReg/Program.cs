@@ -5,13 +5,43 @@ namespace Regex_UserReg
 {
     class Program // Regex UC 1 
     {
+       
         static void Main(string[] args)
         {
+            Mainmenu();
+        }
+
+        static void Mainmenu()
+        {
+            Clear();
+
             Patterns patterns = new Patterns();
             
-            WriteLine(patterns.validatePinCode("Abc2"));
+            WriteLine("\nDefault Value : Abc \n");
+            
+            WriteLine(patterns.regex("Abc"));
+            
+            WriteLine("\nEnter New Valid or Invalid  Input : \n");
+            
+            WriteLine(patterns.regex(ReadLine()));
+            
+            WriteLine("\nPress Enter To Type Value  || 0 = To Exit");
 
-            Console.ReadKey();
+
+            string Menu;
+            Menu = ReadLine();
+            switch (Menu)
+            {
+                case "0":
+                    System.Environment.Exit(1);
+                    break;
+
+                default:
+                    WriteLine("");
+                    break;
+            }
+            Mainmenu();
         }
     }
 }
+

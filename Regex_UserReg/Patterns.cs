@@ -4,15 +4,15 @@ using System.Text;
 using System.Text.RegularExpressions;
 
 
-namespace Regex_UserReg
+namespace Regex_UserReg  // UC 1
 {
     class Patterns // Regex UC 1    
     {
-        public static string Regex_Pincode = "^([A-Z][a-zA-Z0-9]*)$";
+        public static string Regexx = @"^([A-Z][\w]{2})*$";
 
-        public bool validatePinCode(string pincode)
+        public bool regex(string regex)
         {
-            return Regex.IsMatch(pincode, Regex_Pincode);
+            return Regex.IsMatch(regex, Regexx);
         }
     }
 
