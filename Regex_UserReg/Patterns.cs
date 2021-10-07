@@ -4,11 +4,11 @@ using System.Text;
 using System.Text.RegularExpressions;
 
 
-namespace Regex_UserReg  // UC 5
+namespace Regex_UserReg  // UC 6
 {
-    class Patterns // Regex UC 5    
+    class Patterns // Regex UC 6    
     {
-        public static string Regexx = @"^(?=.*[A-Za-z])(?=.*\w)[A-Za-z\w]{8}$";
+        public static string Regexx = "^[a-z]{7}[A-Z]$";
 
         public bool regex(string regex)
         {
