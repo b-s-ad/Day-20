@@ -3,7 +3,7 @@ using static System.Console;
 
 namespace Regex_UserReg
 {
-    class Program // Regex UC 7
+    class Program // Regex UC 8
     {
        
         static void Main(string[] args)
@@ -17,9 +17,9 @@ namespace Regex_UserReg
 
             Patterns patterns = new Patterns();
             
-            WriteLine("\nDefault Value : aBcDeFg1\n");
+            WriteLine("\nDefault Value : A2b@c-dEf\n");
                 
-            WriteLine(patterns.regex("aBcDeFg1"));
+            WriteLine(patterns.regex("A2b@c-dEf"));
             
             WriteLine("\nEnter New Valid or Invalid  Input : \n");
             
