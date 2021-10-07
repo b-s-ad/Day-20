@@ -3,7 +3,7 @@ using static System.Console;
 
 namespace Regex_UserReg
 {
-    class Program // Regex UC 2 
+    class Program // Regex UC 3 
     {
        
         static void Main(string[] args)
@@ -17,9 +17,9 @@ namespace Regex_UserReg
 
             Patterns patterns = new Patterns();
             
-            WriteLine("\nDefault Value : Air Way\n");
+            WriteLine("\nDefault Value : abc.xyz@bl.co.in || abc@bl.co\n");
             
-            WriteLine(patterns.regex("Air Way"));
+            WriteLine(patterns.regex("abc@bl.co"));
             
             WriteLine("\nEnter New Valid or Invalid  Input : \n");
             
