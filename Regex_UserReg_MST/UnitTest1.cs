@@ -3,13 +3,13 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Regex_UserReg_MST
 {
     [TestClass]
-    public class UnitTest1  // Regex UC 4
+    public class UnitTest1  // Regex UC 5
     {
         [TestMethod]
-        public void UC4_Pre_defined_Mobile_Format()
+        public void UC5_Min_8_Char()
         {
-            string input = "91 9919819801";
-            string pattern = "^[9][1][ ][1-9][0-9]{9}$";
+            string input = "AbCdEfGh";
+            string pattern = @"^(?=.*[A-Za-z])(?=.*\w)[A-Za-z\w]{8}$";
 
 
             Assert.IsTrue(System.Text.RegularExpressions.Regex.IsMatch(input, pattern));

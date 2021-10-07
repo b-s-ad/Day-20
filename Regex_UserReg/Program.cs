@@ -3,7 +3,7 @@ using static System.Console;
 
 namespace Regex_UserReg
 {
-    class Program // Regex UC 4
+    class Program // Regex UC 5
     {
        
         static void Main(string[] args)
@@ -17,9 +17,9 @@ namespace Regex_UserReg
 
             Patterns patterns = new Patterns();
             
-            WriteLine("\nDefault Value : 91 9919819801\n");
+            WriteLine("\nDefault Value : AbCdEfGh || ABCDabcd || abcdABCD\n");
             
-            WriteLine(patterns.regex("91 9919819801"));
+            WriteLine(patterns.regex("AbCdEfGh"));
             
             WriteLine("\nEnter New Valid or Invalid  Input : \n");
             
