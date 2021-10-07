@@ -3,13 +3,13 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Regex_UserReg_MST
 {
     [TestClass]
-    public class UnitTest1  // Regex UC 1 
+    public class UnitTest1  // Regex UC 2 
     {
         [TestMethod]
-        public void UC1()
+        public void UC2_LastName()
         {
-            string input = "Abc";
-            string pattern = @"^([A-Z][\w]{2})*$";
+            string input = "Win Rar";
+            string pattern = "^[A-Z][a-z]{2}[ ]([A-Z][a-z]{2})$";
 
 
             Assert.IsTrue(System.Text.RegularExpressions.Regex.IsMatch(input, pattern));
