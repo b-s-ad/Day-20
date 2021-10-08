@@ -10,8 +10,8 @@ namespace Regex_UserReg
         {
             Patterns patterns = new Patterns();
             WriteLine("Sample Valid Email\n\n");
-            WriteLine("\n08.Default Input : abc@gmail.com.com\n");
-            WriteLine(patterns.regex("aabc@gmail.com.com"));
+            WriteLine("\n09.Default Input : abc+100@gmail.com\n");
+            WriteLine(patterns.regex("abc+100@gmail.com"));
             ReadLine();
         }
 
