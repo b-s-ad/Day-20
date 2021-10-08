@@ -7,15 +7,26 @@ namespace Regex_UserReg_MST
     {
 
         [TestMethod]
-        public void VE2()
+        public void VE3()
         {
-            string input = "abc-100@yahoo.com";
-            string pattern = "^[a-zA-z-0-9]+[@}+[a-zA-Z]+[.][a-zA-Z]{2,3}$";
+            string input = "abc.100@yahoo.com";
+            string pattern = "^[a-zA-z.0-9]+[@}+[a-zA-Z]+[.][a-zA-Z]{2,3}$"; 
 
 
             Assert.IsTrue(System.Text.RegularExpressions.Regex.IsMatch(input, pattern));
         }
 
+
+
+        /* [TestMethod]
+         public void VE2()
+         {
+             string input = "abc-100@yahoo.com";
+             string pattern = "^[a-zA-z-0-9]+[@}+[a-zA-Z]+[.][a-zA-Z]{2,3}$";
+
+
+             Assert.IsTrue(System.Text.RegularExpressions.Regex.IsMatch(input, pattern));
+         }*/
 
 
 
