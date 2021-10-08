@@ -1,10 +1,10 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
 
-namespace Regex_UserReg   // Regex UC 9 VE9
+namespace Regex_UserReg   // Regex UC 9 [1-9]
 {
     public class Patterns   
     {
@@ -18,3 +18,4 @@ namespace Regex_UserReg   // Regex UC 9 VE9
 
 }
 
+*/
