@@ -4,6 +4,7 @@ C:\Users\Demo\Desktop\te\Regex_UserReg\bin\Debug\netcoreapp3.1\Regex_UserReg.run
 C:\Users\Demo\Desktop\te\Regex_UserReg\bin\Debug\netcoreapp3.1\Regex_UserReg.runtimeconfig.dev.json
 C:\Users\Demo\Desktop\te\Regex_UserReg\bin\Debug\netcoreapp3.1\Regex_UserReg.dll
 C:\Users\Demo\Desktop\te\Regex_UserReg\bin\Debug\netcoreapp3.1\Regex_UserReg.pdb
+C:\Users\Demo\Desktop\te\Regex_UserReg\obj\Debug\netcoreapp3.1\Regex_UserReg.csproj.AssemblyReference.cache
 C:\Users\Demo\Desktop\te\Regex_UserReg\obj\Debug\netcoreapp3.1\Regex_UserReg.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Demo\Desktop\te\Regex_UserReg\obj\Debug\netcoreapp3.1\Regex_UserReg.AssemblyInfoInputs.cache
 C:\Users\Demo\Desktop\te\Regex_UserReg\obj\Debug\netcoreapp3.1\Regex_UserReg.AssemblyInfo.cs
